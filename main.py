@@ -2,11 +2,11 @@ from manager import TaskManager
 from storage import Storage
 def print_banner():
     print("\n" + "=" * 60)
-    print(" Smart CLI Productivity Manager")
+    print("CLI Productivity Manager")
     print("=" * 60)
 
 def display_menu():
-    print("\n=== Smart CLI Productivity Manager ===")
+    print("\n===CLI Productivity Manager ===")
     print("1. Add task")
     print("2. List tasks")
     print("3. Complete task")
