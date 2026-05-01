@@ -57,7 +57,7 @@ class Task:
         return Task(
             id = data["id"],
             title = data["title"],
-            description= data.get("description",""),# we used get to made default for description if wasnt inserted from the user.
+            description= data.get("description",""),
             due_date = data.get("due_date", ""),
             priority=data.get("priority", "medium"),
             tags=raw_tags,
