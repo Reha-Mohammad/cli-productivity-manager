@@ -6,7 +6,6 @@ def print_banner():
     print("=" * 60)
 
 def display_menu():
-    print("\n===CLI Productivity Manager ===")
     print("1. Add task")
     print("2. List tasks")
     print("3. Complete task")
